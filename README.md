@@ -25,7 +25,7 @@ Users should be able to:
 ## Author
 
 - Website - [Gustavo Feliciano](https://github.com/gusfeliciano)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/gusfeliciano)
+- Frontend Mentor - [@gusfeliciano](https://www.frontendmentor.io/profile/gusfeliciano)
 - Twitter - [@gusontherun](https://www.twitter.com/gusontherun)
 
 
