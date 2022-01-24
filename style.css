@@ -1,6 +1,16 @@
 body {
     background-color: #0D192C;
     max-height: 100vh;
+    font-family: "Outfit";
+}
+
+.main-card {
+    margin: auto;
+    margin-top: 15vh;
+    width: 300px;
+    background-color: #15263F;
+    box-shadow: 10px;
+    border-radius: 10px;
 }
 
 .main-logo {
@@ -10,20 +20,85 @@ body {
 }
 
 .main-logo img{
-    width: 75%;
+    width: 90%;
     margin: 2vh;
     border-radius: 10px;
 }
 
 
-.main-card {
-    margin: auto;
-    margin-top: 5vh;
-    width: 350px;
-    height: 596px;
-    background-color: #15263F;
-    box-shadow: 10px;
-    border-radius: 10px;
+.main-content {
+    display: flex;
+    flex-direction: column;
 }
 
+.main-title {
+    color: white;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 20px;
+}
 
+.main-description {
+    color: #8BACD9;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+.secondary-description {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    font-size: 15px;
+}
+
+.eth {
+    margin-left: 1em;
+    color: #00FFF8;
+}
+
+.eth img {
+    margin-right: .5em;
+}
+
+.time {
+    margin-right: 1em;
+    color: #8BACD9;
+}
+
+.time img {
+    margin-right: .2em;
+}
+
+.created {
+    display: flex;
+    margin-left: 1em;
+    color: #8BACD9;
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.name {
+    color: white;
+    margin-left: .4em;
+}
+
+.created img {
+    width: 2em;
+    margin-right: 1em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.attribution {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.attribution a {
+    color: rgb(111, 130, 218);
+    margin-left: .3em;
+}
