@@ -21,10 +21,33 @@ body {
 
 .main-logo img{
     width: 90%;
-    margin: 2vh;
     border-radius: 10px;
+    margin-top: 1em;
 }
 
+#icon-view{
+    position:absolute;
+    left:calc(50%);
+    bottom:calc(50%);
+    transform: translate(-50%, 50%);
+    cursor: pointer;
+    
+}
+#icon-view-container {
+    position: absolute;
+    background:hsl(178, 100%, 50%,50%);
+    margin-top: 1em;
+    width: 272px;
+    height: 270px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0;
+    transition:opacity 0.5s ease-in-out;
+}
+#icon-view-container:hover {
+    opacity: 1;
+    
+}
 
 .main-content {
     display: flex;
@@ -37,6 +60,10 @@ body {
     margin-bottom: 1em;
     margin-top: 1em;
     font-size: 20px;
+}
+
+.main-title:hover {
+    color: #00FFF8;
 }
 
 .main-description {
@@ -84,6 +111,10 @@ body {
     margin-left: .4em;
 }
 
+.name:hover {
+    color: #00FFF8;
+}
+
 .created img {
     width: 2em;
     margin-right: 1em;
@@ -94,11 +125,11 @@ body {
 .attribution {
     color: white;
     font-size: 15px;
-    display: flex;
-    margin-top: 10vh;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
 }
 
 .attribution a {
     color: rgb(111, 130, 218);
-    margin-left: .3em;
 }
